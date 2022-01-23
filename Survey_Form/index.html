@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class=header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description"> Thank you for taking the time to help us to improve the platform</p>
+    </div>
+    <div id=form>
+      <form id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <br>
+        <input id="name" type="text" name="Name" placeholder="Enter your name" required>
+        <br>
+        <br>
+
+        <label id="email-label" for="email">Email</label>
+        <br>
+
+        <input id="email" type="email" placeholder="Enter your Email" required>
+        <br>
+        <br>
+
+        <label id="number-label" for="number">Age (optional)</label>
+        <br>
+        <input id="number" type="number" min="1" max="50" placeholder="Age">
+        <br>
+        <br>
+        <label for="dropdown">Which option describes your best current role?</label>
+        <br>
+        <select id="dropdown" <option>Select Current Role</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full time Learner</option>
+          <option>Prefer not to say</option>
+          <option>Other</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="">Would you recommend freeCodeCamp to your friend?</label>
+        <br>
+        <input type="radio" id="recommend" name="recommend" value="Definitely">
+        <label for="recommend"> Definitely
+        </label>
+        <br>
+
+        <input type="radio" id="dont-recommend" name="recommend" value="Definitely">
+        <label for="dont-recommend"> Maybe</label>
+        <br>
+
+        <input type="radio" id="not-at-all" name="recommend" value="not-at-all">
+        <label for="not-at-all"> Not at all
+          <br>
+          <br>
+          <label for="">What would you like to be improved?</label>
+          <br>
+          <input type="checkbox" id="frontend" name="suggestions" value="Front-end Projects">
+          <label for="frontend">Frontend Projects</label>
+          <br>
+          <input type="checkbox" id="backend" value="backend" name="suggestions">
+          <label for="backend">Backend Projects</label><br>
+          <input type="checkbox" id="data-visualization" value="data-visualization" name="suggestions">
+          <label for="data-visualization">Data Visualization</label><br>
+          <input type="checkbox" id="challenges" value="challenges" name="suggestions">
+          <label for="challenges">Challenges</label><br>
+          <input type="checkbox" id="open-source" value="open-source" name="suggestions">
+          <label for="open-source">Open Source</label><br>
+
+          <input type="checkbox" id="video" value="video" name="suggestions">
+          <label for="video">Video</label><br>
+
+          <input type="checkbox" id="city-meetups" value="city-meetups" name="suggestions">
+          <label for="city-meetups">City Meetups</label><br>
+
+          <input type="checkbox" id="wiki" value="wiki" name="suggestions">
+          <label for="wiki">Wiki</label><br><br>
+
+          <label for="textarea">Any comments or suggestions?</label><br>
+          <textarea></textarea>
+          <br>
+          <br>
+
+          <input type="submit" id="submit">
+
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

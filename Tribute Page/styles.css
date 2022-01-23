@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(159, 192, 208);
+    font-family: 'Outfit', sans-serif;
+    
+  }
+  
+  #about{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  #title ,#about-person {
+    display: flex;
+    justify-content: center;
+   
+  }
+  #img-caption{
+   
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #img-div{
+    display: flex;
+    flex-direction:column;
+  }
+  #image{
+    
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+  display: flex;
+    flex-direction: row; 
+    justify-content : center;
+  }
+  ul{
+  
+    position: relative;
+    left: 50px;
+    line-height: 50px;
+    word-wrap: break-word;
+  
+  }
+  
+  }
+  
+  
+  
